@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel = "stylesheet" href = "style1.css">
+</head>
+<body>
+    <main>
+        <div class="row">
+            <div class="img-section">
+                <img src="images/Insta.png" alt="Instagram">
+            </div>
+            <div class="login-section">
+                <div class="white-bg">
+                    <h1>Instagram</h1>
+                    <form action="#">
+                        <input type="text" placeholder="Номер телефона, имя пользователя или адрес электронной почты">
+                        <input type="password" placeholder="Пароль">
+                        <button class="subtmit-btn" type="submit" disabled>
+                            Войти
+                        </button>
+                        <div class="or">
+                            <span></span>
+                            <p>или</p>
+                            <span></span>
+                        </div>
+                        <a href="#" class="fb-login">
+                            <img src="images/fb_logo.png" alt="Facebook logo">
+                            <p>Войдите через Facebook</p>
+                        </a>
+                        <a href="#" class="forgot-login">
+                            Забыли пароль?
+                        </a>
+                    </form>
+                </div>
+                <div class="white-bg mt">
+                    <p>У вас еще нет аккаунта?<a href="#">Зарегистрироваться</a></p>
+                </div>
+                <div class="get-app mt">
+                    <p>Установите приложение</p>
+                    <div class="d-flex">
+                        <a href="#">
+                            <img src="images/app_store.png" alt="">
+                        </a><a href="#">
+                            <img src="images/play_store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ol>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Конфиденциальность</a></li>
+            <li><a href="#">Условия</a></li>
+            <li><a href="#">Популярные аккаунты</a></li>
+            <li><a href="#">Хэштеги</a></li>
+            <li><a href="#">Места</a></li>
+        </ol>
+        <div class="d-flex mt">
+            <select name="language" id="language">
+                <option value="lang1">
+                    Русский
+                </option>
+                <option value="lan2">Казахский</option>
+                <option value="lan3">Английский</option>
+                <option value="lan4">Китайский</option>
+            </select>
+            <small>&copy;Instagram от Facebook, 2021</small>
+        </div>
+    </footer>
+</body>
+
+</html>
+
